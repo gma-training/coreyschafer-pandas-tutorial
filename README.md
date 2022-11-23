@@ -11,11 +11,15 @@ To install the libraries you'll need to install the packages listed in `requirem
     pip install pip-tools
     pip-sync
 
+You should then be able to run JupyterLab:
+
+    jupyter lab
+
 To work with this code you'll want to download the 2019 StackOverflow [developer survey].
 
 Once downloaded, put the files into a directory called `data`:
 
-    unzip ~/Downloads/developer_survey_2019.zip -d data
+    unzip ~/Downloads/stack-overflow-developer-survey-2019.zip -d data
 
 [video series on pandas]: https://www.youtube.com/watch?v=ZyhVh-qRZPA&list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS
 [developer survey]: https://insights.stackoverflow.com/survey
